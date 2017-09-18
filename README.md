@@ -2,6 +2,8 @@
 
 This repo will contain of the code for the individual challenges for the quarter. The code for each challenge will be stored in its own folder (`challenge#`).
 
+1. [challenge1](./challenge1/)
+
 **Important**: By accepting the Github Classroom invite, this repo was created as a copy (not a true fork) of the original `challenges` repo. This is so that you will have access to view your challenges repo and the original `challenges` repo, and only you and the teaching will have access to view your `challenges` repo. You *DO NOT* need to fork this repo.
 
 ## Add upstream repo as remote
@@ -9,7 +11,7 @@ This repo will contain of the code for the individual challenges for the quarter
 After cloning this repo, run the following commands (you only need to do this once per computer):
 
 ```bash
-cd challenges
+cd challenges-{username}
 git remote add upstream https://github.com/info343a-au17/challenges.git
 ```
 
@@ -29,7 +31,7 @@ Create a new branch in the repo (the name will be specified in the write up) and
 
 ```
 # New assignment posted, create and switch to new branch
-git checkout -b files-challenge
+git checkout -b challenge2
 
 # Update repo
 git pull upstream master
@@ -50,7 +52,7 @@ git add .
 git commit -m "Files for Challenge 2"
 
 # Push your new branch to github
-git push --set-upstream origin files-challenge
+git push --set-upstream origin challenge2
 ```
 
 Go to your repo on Github, and click the "New pull request" button at the top to create a new pull request.
