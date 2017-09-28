@@ -44,7 +44,7 @@ Add a new file in the `challenge1` folder named `ABOUTME.md`. It must be written
 4. A second level heading with the text "Favorite Websites".
 5. A numbered list with links to your 5 favorite websites. Each link should have the name of website as the displayed text.
 6. A second level heading with the text "Favorite Programming Languages".
-7. An ordered list with your favorite programming languages.
+7. An unordered/bulleted list with your favorite programming languages.
 
 ### 6. Commit your files
 
