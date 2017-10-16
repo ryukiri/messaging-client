@@ -91,6 +91,7 @@ For this assignment you will create a full-screen carousel, displaying images fr
 
 1. **Clickable dots** (5 points): Make the dots at the bottom of the page clickable, e.g. clicking the second dot transitions to the second slide, regardless of which slide you are currently on. The dots should have the same hover effect as the arrows.
 2. **Circular carousel** (5 points): Enable the user to go directly from the last slide in the gallery to first slide by clicking the right arrow, and from the first slide in the gallery to the last slide by clicking the left arrow. For full credit, the slides must animate in the expected direction for each arrow, i.e. clicking the right arrow on the last slide must transition to the first slide from right to left, and vice versa.
+3. **Keyboard navigation** (5 points): Enable the user to navigate the slide show with their keyboard by using the left and right arrow keys.
 
 ### Validate your code
 
