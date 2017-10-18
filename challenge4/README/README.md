@@ -87,11 +87,15 @@ For this assignment you will create a full-screen carousel, displaying images fr
 5. The dots must always be centered at the bottom of the screen, and be slightly smaller on mobile browsers.
 6. The `transition` between slides should should animate the horizontal position (the animation shown above lasted 1 second).
 
-### Extra Credit
+#### D. Extra Credit
 
 1. **Clickable dots** (5 points): Make the dots at the bottom of the page clickable, e.g. clicking the second dot transitions to the second slide, regardless of which slide you are currently on. The dots should have the same hover effect as the arrows.
 2. **Circular carousel** (5 points): Enable the user to go directly from the last slide in the gallery to first slide by clicking the right arrow, and from the first slide in the gallery to the last slide by clicking the left arrow. For full credit, the slides must animate in the expected direction for each arrow, i.e. clicking the right arrow on the last slide must transition to the first slide from right to left, and vice versa.
 3. **Keyboard navigation** (5 points): Enable the user to navigate the slide show with their keyboard by using the left and right arrow keys.
+
+### Third-party libraries
+
+While you may use the CSS from Bootstrap, you may not use Bootstrap's JavaScript, or any other third-party JavaScript library such as jQuery or any carousel libaries.
 
 ### Validate your code
 
