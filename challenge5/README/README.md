@@ -38,7 +38,7 @@ For this assignment, you will build an interactive version of the NASA APOD site
 
 ![](https://i.imgur.com/t8etSse.png)
 
-![](https://i.imgur.com/Z4DF6i4.gifv)
+![](https://i.imgur.com/Z4DF6i4.gif)
 
 ![](https://i.imgur.com/6ypq4jr.png)
 
