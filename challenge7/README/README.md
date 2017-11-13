@@ -39,6 +39,17 @@ To obtain an API key for Open Weather Map, perform the following steps:
 5. You will need to include this API key with each request you make to their API.
 6. Documentation on the current weather API can be found at <a href="http://openweathermap.org/current" target="_blank">http://openweathermap.org/current</a>
 
+### Development Instructions
+
+1. Update your repo with the new starter code (see above).
+2. Change directories into your `challenge7` folder: `cd challenge7`
+3. Install the project dependencies by running: `npm install`
+4. Obtain an API key from Open Weather Map (see above).
+5. In your `challenge7` folder, open the `package.json` file. In order to be able to properly publish to Github Pages, you must update the `homepage` url to use your `challenges-` repo name instead of `challenges-jasonnutter`. So if your challenges repo is named `challenges-uwnetid`, the `homepage` property should be updated to `"homepage": "https://info343a-au17.github.io/challenges-uwnetid/challenge7"`
+6. To run your app locally, `cd challenges7` and run `npm start`
+7. To run lint, run `npm run lint`
+8. To publish your app to Github Pages, run `npm run deploy` (you need to do this every time you want to update your app on Github Pages). You do not need to manually merge your `challenge7` branch into `gh-pages`, as `npm run deploy` will do that for you.
+
 ### Project files and folders
 
 * `build`: Folder contains files generated from running `npm run build`. You should not edit any files in this folder.
@@ -63,7 +74,7 @@ For this assignment, the overall look and feel of your application is up to you
 **B. Hosting**
 
 1. Any data from for your app must be stored in the browser's localStorage.
-2. Your page should be hosted on Github Pages. **Important**: To automatically deploy your app to Github Pages, run `npm run deploy`.
+2. Your page should be hosted on Github Pages. **Important**: To automatically deploy your app to Github Pages, run `npm run deploy`. You must also update the `homepage` property inside of the `package.json` file to be `challenges-{your github user name}` instead of `challenges-jasonnutter`.
 
 **C. Pages**
 
