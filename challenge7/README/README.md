@@ -5,6 +5,8 @@ For this challenge, you will combine your knowledge of HTML, CSS, JavaScript, an
 ## Resources
 
 * <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a>
+    * <a href="https://openweathermap.org/current" target="_blank">Current Weather API</a>
+    * <a href="https://openweathermap.org/weather-conditions" target="_blank">Weather Conditions</a>
 * <a href="https://reactjs.org/" target="_blank">React</a>
 * Review:
     * <a href="https://canvas.uw.edu/courses/1118281/assignments/3820984" target="_blank">React Introduction</a>
