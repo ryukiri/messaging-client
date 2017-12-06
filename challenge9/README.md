@@ -13,10 +13,17 @@ For this assignment, your team will create a web app of your choosing. You can 
 7.  You **cannot** recreate a challenge from earlier in the quarter. 
 8.  It must be hosted somewhere such as Github Pages, Firebase Hosting, or another hosting service.
     1. <a href="https://zeit.co/now/" tareget="_blank">Now</a>
+        1. Run `npm install -g now`
+        2. Run `now login`. This will send you an email to signup/login. It may take a few minutes.
+        3. Return to your terminal, and `cd` to your project directory.
+        4. Run `now`
+        5. `now` will print out the url to your deployed site, something like: `https://name-of-app-gqdihpblrt.now.sh`
+        6. If you would like to have a nice, consistent url, run `now alias set`, something like: `now alias set without-react-gqdihpblrt nameofapp.now.sh`
     2. <a href="https://surge.sh/" target="_blank">Surge</a>
     3. <a href="https://www.heroku.com" target="_blank">Heroku</a>
     4. <a href="https://aws.amazon.com/" target="_blank">AWS</a>
     5. <a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment" target="_blank">Instructions for Create React Apps</a>
+        1. <a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages" target="_blank">Github Pages</a>
 9.  Each team member must make a non-trivial code contribution to the app. 
     1.  Optional: you may have **one** member of your team act as a Project Manager. This person will be responsible for managing the completion of the project, including creating and managing Github issues and reviewing code for your project.
     2.  There must be documented evidence (creating issues, commenting on PRs, etc.) of this person's work.
