@@ -1,3 +1,33 @@
 /*
  *  This file should contain your custom style rules.
  */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.centerMain {
+  width: 100%;
+  padding: 10%;
+  margin: 0 auto;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.padding10 {
+  padding: 1%;
+}
+
+#message-input {
+  float: left;
+  width: 90%;
+}
+
+html,
+body {
+  height: 100%;
+}
