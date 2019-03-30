@@ -34,26 +34,30 @@
         <div class="card-body">
           <div class="row">
             <div class="col">
-              <form class="form-signin">
+              <form class="form-signin" id="signup-form">
                 <h1 class="display-3">Signup</h1>
-                <label for="displayName" class="sr-only">Display Name</label>
+                <label for="signup-displayname" class="sr-only"
+                  >Display Name</label
+                >
                 <input
                   type="name"
-                  id="displayName"
+                  id="signup-displayname"
                   class="form-control"
                   placeholder="Name"
                   required
                 />
-                <label for="inputEmail" class="sr-only">Email address</label>
+                <label for="signup-InputEmail" class="sr-only"
+                  >Email address</label
+                >
                 <input
                   type="email"
-                  id="inputEmail"
+                  id="signup-InputEmail"
                   class="form-control"
                   placeholder="Email address"
                   required
                   autofocus
                 />
-                <label for="inputEmailConfirm" class="sr-only"
+                <label for="signup-inputEmailConfirm" class="sr-only"
                   >Email address</label
                 >
                 <small class="form-text text-muted"
@@ -61,26 +65,28 @@
                 >
                 <input
                   type="email"
-                  id="inputEmailConfirm"
+                  id="signup-inputEmailConfirm"
                   class="form-control"
                   placeholder="Email address (confirm)"
                   required
                   autofocus
                 />
-                <label for="inputPassword" class="sr-only">Password</label>
-                <input
-                  type="password"
-                  id="inputPassword"
-                  class="form-control"
-                  placeholder="Password"
-                  required
-                />
-                <label for="inputPasswordConfirm" class="sr-only"
+                <label for="signup-InputPassword" class="sr-only"
                   >Password</label
                 >
                 <input
                   type="password"
-                  id="inputPasswordConfirm"
+                  id="signup-InputPassword"
+                  class="form-control"
+                  placeholder="Password"
+                  required
+                />
+                <label for="signup-InputPasswordConfirm" class="sr-only"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  id="signup-InputPasswordConfirm"
                   class="form-control"
                   placeholder="Password (confirm)"
                   required
@@ -88,24 +94,33 @@
                 <button class="btn btn-lg btn-primary btn-block" type="submit">
                   Sign up
                 </button>
+                <div
+                  id="signup-error"
+                  class="alert alert-danger"
+                  role="alert"
+                ></div>
               </form>
             </div>
             <div class="col">
-              <form class="form-signin">
+              <form class="form-signin" id="login-form">
                 <h1 class="display-3">Login</h1>
-                <label for="inputEmail" class="sr-only">Email address</label>
+                <label for="login-inputEmail" class="sr-only"
+                  >Email address</label
+                >
                 <input
                   type="email"
-                  id="inputEmail"
+                  id="login-inputEmail"
                   class="form-control"
                   placeholder="Email address"
                   required
                   autofocus
                 />
-                <label for="inputPassword" class="sr-only">Password</label>
+                <label for="login-inputPassword" class="sr-only"
+                  >Password</label
+                >
                 <input
                   type="password"
-                  id="inputPassword"
+                  id="login-inputPassword"
                   class="form-control"
                   placeholder="Password"
                   required
@@ -118,6 +133,11 @@
                 <button class="btn btn-lg btn-primary btn-block" type="submit">
                   Sign in
                 </button>
+                <div
+                  id="login-error"
+                  class="alert alert-danger"
+                  role="alert"
+                ></div>
                 <p class="mt-5 mb-3 text-muted">&copy; 2019 Austin Quach</p>
               </form>
             </div>

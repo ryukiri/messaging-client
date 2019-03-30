@@ -7,7 +7,7 @@
  * 5. Redirect a user to index.html if they are not logged in.
  */
 
-console.log("CHAT");
+console.log("MESSENGER");
 
 var logoutButton = document.getElementById("logout");
 var auth = firebase.auth();
