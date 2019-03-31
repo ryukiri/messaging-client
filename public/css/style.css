@@ -22,9 +22,35 @@
   padding: 1%;
 }
 
+.margin10 {
+  margin: 1%;
+}
+
+.floatRight {
+  float: right;
+  position: relative;
+}
+
+.test {
+  padding: 50%;
+}
+
 #message-input {
-  float: left;
-  width: 90%;
+  position: fixed;
+  bottom: 0;
+  width: 78%;
+  right: 0;
+  margin-right: 60px;
+}
+
+#button-input {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.messages {
+  height: 25%;
 }
 
 html,
